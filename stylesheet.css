@@ -1,0 +1,62 @@
+.lay1 {
+  float: left;
+
+  width: 100%;
+  background-color: rgb(53, 84, 87);
+  padding: 10px;
+}
+
+.heading {
+  padding: 10px;
+  float: left;
+  color: rgb(25, 109, 116);
+}
+
+.type {
+  padding: 15px;
+  float: left;
+  color: rgb(136, 165, 132);
+  cursor: pointer;
+}
+
+body {
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/000/151/563/small/random-numbers-matrix-background.jpg");
+}
+
+canvas {
+  border: black;
+  display: block;
+  margin: 0 auto;
+}
+
+.bub:hover,
+.sel:hover,
+.mer:hover,
+.dra:hover,
+.stop:hover {
+  color: #ffa500;
+}
+
+.bub {
+  float: left;
+  padding: 10px;
+}
+.sel {
+  float: left;
+  padding: 10px;
+}
+.mer {
+  float: left;
+
+  padding: 10px;
+}
+.dra {
+  float: left;
+
+  padding: 10px;
+}
+
+.stop {
+  float: left;
+  padding: 10px;
+}

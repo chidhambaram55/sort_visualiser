@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>sortvisuals</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+
+  <body onload="setup()">
+    <div class="entire">
+      <div class="lay1">
+        <h1 class="heading">sort visualise</h1>
+        <div class="type">
+          <h2 class="bub" onclick="bsort()">bubble sort</h2>
+          <h2 class="sel" onclick="ssort()">selection sort</h2>
+          <h2 class="dra" onclick="setup()">draw the array</h2>
+          <h2 class="mer" onclick="merge()">merge sort</h2>
+          <h2 class="stop" onclick="stopf()">stop</h2>
+        </div>
+      </div>
+
+      <canvas id="myCanvas" width="1600" height="1500"></canvas>
+    </div>
+
+    <script type="text/javascript" src="sorts.js"></script>
+  </body>
+</html>
